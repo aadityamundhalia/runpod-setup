@@ -16,7 +16,7 @@
         200
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -115,7 +115,7 @@
         34
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -156,7 +156,7 @@
         478
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -253,7 +253,7 @@
         -1,
         1,
         5.5,
-        1806085809978,
+        360137645440938,
         "randomize",
         "standard",
         false
@@ -266,7 +266,7 @@
         "steps_to_run": -1,
         "denoise": 1,
         "cfg": 5.5,
-        "seed": 1806085809978,
+        "seed": 360137645440938,
         "control_after_generate": "randomize",
         "sampler_mode": "standard",
         "bongmath": false
@@ -284,7 +284,7 @@
         478
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -381,7 +381,7 @@
         -1,
         0.2,
         5.5,
-        896986679513685,
+        446682687803116,
         "randomize",
         "standard",
         true
@@ -394,43 +394,11 @@
         "steps_to_run": -1,
         "denoise": 0.2,
         "cfg": 5.5,
-        "seed": 896986679513685,
+        "seed": 446682687803116,
         "control_after_generate": "randomize",
         "sampler_mode": "standard",
         "bongmath": true
       }
-    },
-    {
-      "id": 11,
-      "type": "Note",
-      "pos": [
-        7498.591903300508,
-        1281.0371115736693
-      ],
-      "size": [
-        247.796875,
-        141.1875
-      ],
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "Famegrid Auto Color Node is here\n\n\nhttps://github.com/ultramuseart/famegrid-auto-color"
-      ],
-      "widgets_values_named": {
-        "text": "Famegrid Auto Color Node is here\n\n\nhttps://github.com/ultramuseart/famegrid-auto-color"
-      },
-      "color": "#432",
-      "bgcolor": "#653"
     },
     {
       "id": 21,
@@ -444,7 +412,7 @@
         26
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -485,7 +453,7 @@
         200
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -541,7 +509,7 @@
         114
       ],
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -586,7 +554,7 @@
         200
       ],
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -628,7 +596,7 @@
         54
       ],
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -663,68 +631,6 @@
       }
     },
     {
-      "id": 7,
-      "type": "EmptyLatentImage",
-      "pos": [
-        5208.582597393783,
-        1983.2908037149048
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 14
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 15
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            7
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.31.0",
-        "Node name for S&R": "EmptyLatentImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.2"
-        }
-      },
-      "widgets_values": [
-        1200,
-        1600,
-        1
-      ],
-      "widgets_values_named": {
-        "width": 1200,
-        "height": 1600,
-        "batch_size": 1
-      }
-    },
-    {
       "id": 6,
       "type": "VAELoader",
       "pos": [
@@ -736,7 +642,7 @@
         85.984375
       ],
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -777,7 +683,7 @@
         150
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -829,7 +735,7 @@
         557.484375
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -876,7 +782,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -917,49 +823,6 @@
       }
     },
     {
-      "id": 12,
-      "type": "UNETLoader",
-      "pos": [
-        5179.643453019854,
-        2657.4320866823737
-      ],
-      "size": [
-        446.046875,
-        86
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            30
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.31.0",
-        "Node name for S&R": "UNETLoader",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.2"
-        }
-      },
-      "widgets_values": [
-        "Krea2-Raw-int8-ConvRot.safetensors",
-        "default"
-      ],
-      "widgets_values_named": {
-        "unet_name": "Krea2-Raw-int8-ConvRot.safetensors",
-        "weight_dtype": "default"
-      }
-    },
-    {
       "id": 29,
       "type": "Power Lora Loader (rgthree)",
       "pos": [
@@ -971,7 +834,7 @@
         271.508739399139
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -1044,19 +907,124 @@
         "PowerLoraLoaderHeaderWidget": {
           "type": "PowerLoraLoaderHeaderWidget"
         },
-        "lora_4": {
+        "lora_1": {
           "on": true,
           "lora": "krea2_raw_to_turbo_r256_comfy.safetensors",
           "strength": 0.6,
           "strengthTwo": null
         },
-        "lora_5": {
+        "lora_2": {
           "on": true,
           "lora": "krea2filterbypass3.safetensors",
           "strength": 1,
           "strengthTwo": null
         },
         "➕ Add Lora": ""
+      }
+    },
+    {
+      "id": 7,
+      "type": "EmptyLatentImage",
+      "pos": [
+        5233.610768123012,
+        1958.262632985679
+      ],
+      "size": [
+        270,
+        118
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 14
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 15
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.31.0",
+        "Node name for S&R": "EmptyLatentImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        1200,
+        1600,
+        1
+      ],
+      "widgets_values_named": {
+        "width": 1200,
+        "height": 1600,
+        "batch_size": 1
+      }
+    },
+    {
+      "id": 12,
+      "type": "UNETLoader",
+      "pos": [
+        5083.588208743381,
+        2654.1759767069007
+      ],
+      "size": [
+        446.046875,
+        86
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            30
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.31.0",
+        "Node name for S&R": "UNETLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "krea2_raw_int8_convrot.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "krea2_raw_int8_convrot.safetensors",
+        "weight_dtype": "default"
       }
     }
   ],
@@ -1252,10 +1220,10 @@
     "ue_links": [],
     "links_added_by_ue": [],
     "ds": {
-      "scale": 1.3513057093104135,
+      "scale": 0.7627768444385566,
       "offset": [
-        -4808.027247031317,
-        -969.3593427764928
+        -4220.044696646179,
+        -1283.3151775172005
       ]
     },
     "frontendVersion": "1.51.10"
