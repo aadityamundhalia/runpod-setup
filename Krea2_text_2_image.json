@@ -674,7 +674,7 @@
         606.0000368796037
       ],
       "flags": {},
-      "order": 8,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -771,86 +771,43 @@
         "PowerLoraLoaderHeaderWidget": {
           "type": "PowerLoraLoaderHeaderWidget"
         },
-        "lora_2": {
+        "lora_1": {
           "on": false,
           "lora": "krea\\realism_engine_krea2_v3.1.safetensors",
           "strength": 0.7,
           "strengthTwo": null
         },
-        "lora_7": {
+        "lora_2": {
           "on": false,
           "lora": "krea/Afterlight_v1.safetensors",
           "strength": 0.2,
           "strengthTwo": null
         },
-        "lora_8": {
+        "lora_3": {
           "on": false,
           "lora": "krea/Purple_Grainy_Kr2_AM.safetensors",
           "strength": 1,
           "strengthTwo": null
         },
-        "lora_11": {
+        "lora_4": {
           "on": true,
           "lora": "krea/krea2_raw_to_turbo_r256_comfy.safetensors",
           "strength": 0.6,
           "strengthTwo": null
         },
-        "lora_12": {
+        "lora_5": {
           "on": true,
           "lora": "krea/krea2filterbypass3.safetensors",
           "strength": 1,
           "strengthTwo": null
         },
-        "lora_13": {
+        "lora_6": {
           "on": true,
           "lora": "krea/Kurvy_Krea_2_V1.safetensors",
           "strength": 1,
           "strengthTwo": null
         },
         "➕ Add Lora": ""
-      }
-    },
-    {
-      "id": 12,
-      "type": "UNETLoader",
-      "pos": [
-        5179.643453019854,
-        2657.4320866823737
-      ],
-      "size": [
-        446.046875,
-        86
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            30
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.31.0",
-        "Node name for S&R": "UNETLoader",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.2"
-        }
-      },
-      "widgets_values": [
-        "krea2\\krea2_raw_int8_convrot.safetensors",
-        "default"
-      ],
-      "widgets_values_named": {
-        "unet_name": "krea2\\krea2_raw_int8_convrot.safetensors",
-        "weight_dtype": "default"
       }
     },
     {
@@ -865,7 +822,7 @@
         118
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -927,7 +884,7 @@
         85.984375
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -968,7 +925,7 @@
         150
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1020,7 +977,7 @@
         557.484375
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1105,6 +1062,49 @@
       ],
       "widgets_values_named": {
         "filename_prefix": "%date:yyyy-MM-dd%/Krea2_%date:yyyy-MM-dd-hh-mm-ss%"
+      }
+    },
+    {
+      "id": 12,
+      "type": "UNETLoader",
+      "pos": [
+        5179.643453019854,
+        2657.4320866823737
+      ],
+      "size": [
+        446.046875,
+        86
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            30
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.31.0",
+        "Node name for S&R": "UNETLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Krea2-Raw-int8-ConvRot.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "Krea2-Raw-int8-ConvRot.safetensors",
+        "weight_dtype": "default"
       }
     }
   ],
@@ -1300,10 +1300,10 @@
     "ue_links": [],
     "links_added_by_ue": [],
     "ds": {
-      "scale": 0.43056764313425033,
+      "scale": 0.8390545288824117,
       "offset": [
-        -3006.7261858739053,
-        -541.3974029991097
+        -4112.701560485168,
+        -1678.3905373674927
       ]
     },
     "frontendVersion": "1.51.10"
